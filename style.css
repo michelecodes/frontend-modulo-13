@@ -1,0 +1,38 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #ffffcc; /* Amarelo claro */
+}
+
+.container {
+    padding: 20px;
+}
+
+.carousel-inner .carousel-item img {
+    border: 5px solid #ff3399; /* Rosa */
+    border-radius: 10px;
+    box-shadow: 5px 5px 10px #666666; /* Sombra cinza */
+}
+
+.card {
+    background-color: #ff9933; /* Laranja */
+    border: 2px solid #ff3399; /* Rosa */
+    border-radius: 10px;
+}
+
+.card-title {
+    color: #ff3399; /* Rosa */
+}
+
+.card-text {
+    color: #000000; /* Preto */
+}
+
+.carousel-control-prev-icon,
+.carousel-control-next-icon {
+    background-color: #ff3399; /* Rosa */
+}
+
+.carousel-control-prev,
+.carousel-control-next {
+    filter: invert(1); /* Inverte a cor para ficar branca */
+}
